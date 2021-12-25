@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+html,body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+/*Header*/
+header{
+    margin:0;
+    background-image: url(../images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 10rem;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0; padding: 0;
+    text-align: center;
+}
+ul li{
+    padding: 0; margin: 0;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-family: Alata;
+    font-weight: 400;
+
+}
+ul hr{
+    transition: 0.4s all;
+    border: 2px solid white;
+    border-radius: 2px;
+    width: 0;
+    height: 0;
+    border: none;
+    opacity: 1;
+}
+ul li:hover > hr{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 2px;
+    transform: scaleX(1.2);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1_title{
+    margin: 8rem 0 4rem 0;
+    padding: 1rem 6rem;
+    width: fit-content;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Josefin Sans;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.logo{
+    transition: 0.5s all;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+
+/*First section*/
+.firstsection{
+    background-color: white;
+    margin: 0; padding: 10rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2plusparagraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Alata;
+    color: hsl(0, 0%, 55%);
+    background-color: white;
+    margin: 0; padding: 4rem;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 50%;
+    top: 135%;
+    bottom: 0%;
+    
+}
+.h2plusparagraph h2{
+    font-family: Josefin Sans;
+    color: hsl(0, 0%, 41%);
+    font-weight: 300;
+    font-size: 20pt;
+}
+.interactive{
+    margin: 0 auto 0 0;
+}
