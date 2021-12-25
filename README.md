@@ -1,4 +1,4 @@
-#Building that yet!
+# Building that yet!
 
 # Frontend Mentor - Loopstudios landing page
 
