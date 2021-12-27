@@ -165,7 +165,7 @@ ul li:hover > hr{
     left: 20%;
     padding: 1rem;
     border-radius: 1rem;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(61, 61, 61, 0)) ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.521),rgba(61, 61, 61, 0)) ;
 }
 .gallery{
     font-family: Josefin Sans;
@@ -173,7 +173,29 @@ ul li:hover > hr{
     display: grid;
     justify-items: center; align-items: center;
     grid-auto-flow: row;
+    gap: 1rem;
     margin: 0; padding: 0;
     grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
     grid-template-rows: repeat(2,1fr); 
+}
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.parafernalha{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
