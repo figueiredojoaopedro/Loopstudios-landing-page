@@ -88,7 +88,8 @@ ul li:hover > hr{
     font-family: Alata;
     color: hsl(0, 0%, 55%);
     background-color: white;
-    margin: 0; padding: 4rem;
+    margin: 0; padding: 4rem 0rem 4rem 4rem;
+    text-align: left;
 }
 .h2plusparagraph h2{
     font-family: Josefin Sans;
@@ -98,4 +99,72 @@ ul li:hover > hr{
 }
 .interactive{
     margin: 0 auto 0 0;
+}
+.secondsection{
+    margin: 0; padding: 10rem;
+    background-color: white;
+    color: black;
+}
+.title-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Josefin Sans;
+    margin-bottom: 5rem;
+}
+.title-button h2{
+    text-align: center;
+    font-size: 36pt;
+    transition: all 0.5s ease;
+    margin: 0;
+}
+.title-button h2:hover{
+    color: hsl(0, 0%, 41%);
+}
+.title-button button{
+    width: fit-content;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 1rem 2rem;
+    transition: 1s all ease;
+}
+.title-button button:hover{
+    transform: scaleX(1.2);
+    color:hsl(0, 0%, 55%);
+}
+.figure{
+    position: relative;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure h3{
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    text-align:start;
+    bottom: 2rem;
+    left: 2rem;
+}
+.gallery{
+    font-family: Josefin Sans;
+    font-weight: 300;
+    display: grid;
+    justify-items: center; align-items: center;
+    grid-auto-flow: row;
+    margin: 0; padding: 0;
+    gap: 0.5rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr); 
 }
