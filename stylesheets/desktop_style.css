@@ -72,6 +72,7 @@ ul li:hover > hr{
 
 /*First section*/
 .firstsection{
+    position: relative;
     background-color: white;
     margin: 0; padding: 10rem;
     color: black;
@@ -82,6 +83,11 @@ ul li:hover > hr{
 }
 
 .h2plusparagraph{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    bottom: 18%;
+    right: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +95,7 @@ ul li:hover > hr{
     font-family: Alata;
     color: hsl(0, 0%, 55%);
     background-color: white;
-    margin: 0; padding: 4rem 0rem 4rem 4rem;
+    margin: 0; padding: 4rem;
     text-align: left;
 }
 .h2plusparagraph h2{
